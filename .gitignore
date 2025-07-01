@@ -1,0 +1,11 @@
+# Arquivo de configuração com chaves de API
+config.js
+
+# Bibliotecas de terceiros baixadas localmente
+/lib/
+
+# Arquivos de log e dependências do Node
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json 

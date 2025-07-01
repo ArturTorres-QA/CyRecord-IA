@@ -1,0 +1,41 @@
+{
+  "manifest_version": 3,
+  "name": "CyRecord - Artur QA",
+  "version": "1.3.0",
+  "description": "Grava ações e gera comandos Cypress com IA para seletores.",
+  "permissions": [
+    "scripting",
+    "activeTab",
+    "tabs",
+    "downloads"
+  ],
+  "host_permissions": [
+    "<all_urls>",
+    "https://*.googleapis.com/"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Abrir painel de gravação"
+  },
+  "sandbox": {
+    "pages": ["sandbox.html"]
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "injectPanel.js",
+        "sandbox.html",
+        "lib/tf.min.js",
+        "ai-selector-module.js"
+      ],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+} 

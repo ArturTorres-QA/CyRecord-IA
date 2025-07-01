@@ -320,6 +320,10 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 ### Contato
 - **Issues**: Abra uma issue no GitHub
 - **Documentação**: Consulte os guias na pasta `Doc/`
+<<<<<<< HEAD
+=======
+- **Comunidade**: Participe das discussões
+>>>>>>> 75db602 (projeto cyrecord)
 
 ---
 
